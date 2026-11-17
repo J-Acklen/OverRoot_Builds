@@ -1,0 +1,5 @@
+# Zips are too big for git (100MB limit) - share them via GitHub Releases
+*.zip
+# Old builds - kept locally, not in the repo
+Legacy_Builds/
+!Live_Build/v1.4/MacOS/OverRoot.zip
