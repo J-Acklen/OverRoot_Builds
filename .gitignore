@@ -1,5 +1,4 @@
-# Zips are too big for git (100MB limit) - share them via GitHub Releases
-*.zip
-# Old builds - kept locally, not in the repo
+# Builds are distributed via GitHub Releases, not committed to the repo
+Live_Build/
 Legacy_Builds/
-!Live_Build/v1.4/MacOS/OverRoot.zip
+*.zip

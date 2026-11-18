@@ -1,13 +1,11 @@
 # OverRoot Builds
 
-Playtest builds of OverRoot. Current build: **v1.5** (in `Live_Build/v1.5/`).
+Playtest builds of OverRoot. Current build: **v1.5**
 
 ## How to playtest
 
-1. Clone the repo: `git clone https://github.com/J-Acklen/OverRoot_Builds.git`
-   (the download is a few hundred MB, so it may take a minute)
-2. Open `Live_Build/v1.5/` and pick your platform:
-   - **Windows:** run `Windows/OverRoot.exe` (use `OverRoot.console.exe` to see a log window)
-   - **Linux:** run `Linux/OverRoot.sh` (or `./OverRoot.x86_64`). If needed: `chmod +x OverRoot.x86_64 OverRoot.sh`
-   - **macOS:** unzip `Mac/OverRoot.zip` and open the app (you may need to right-click > Open the first time)
-3. To get new builds later: `git pull`
+1. Go to the [Releases page](https://github.com/J-Acklen/OverRoot_Builds/releases/latest) and download the file for your platform:
+   - **Windows:** `OverRoot-v1.5-Windows.zip` — unzip and run `OverRoot.exe` (use `OverRoot.console.exe` to see a log window)
+   - **Linux:** `OverRoot-v1.5-Linux.tar.gz` — extract with `tar -xzf OverRoot-v1.5-Linux.tar.gz`, then run `./OverRoot.sh`. If needed: `chmod +x OverRoot.x86_64 OverRoot.sh`
+   - **macOS:** `OverRoot-v1.5-Mac.zip` — unzip and open the app (you may need to right-click > Open the first time)
+2. New builds show up as new releases. Click **Watch > Custom > Releases** on the repo to get notified.
